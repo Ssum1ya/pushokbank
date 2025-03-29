@@ -1,2 +1,2 @@
 # pushokbank
-ыы
+список зависимостей:sqlite, Flask
