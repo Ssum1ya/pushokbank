@@ -1,7 +1,6 @@
-#from flask import Flask, render_template, request, redirect, url_for, session
 import sqlite3
 import os
-import flask
+from flask import Flask, request, session, render_template, redirect, url_for
 SECRET_KEY = os.urandom(24)
 print(SECRET_KEY.hex())
 
