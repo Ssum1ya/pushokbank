@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">    
+        <title>Money Transfer Simulator</title>
+    </head>
+    <body>
+        <h1>Money Transfer Simulator</h1>
+        <form method="post">
+            <label for="sender_card">Sender Card:</label>
+            <input type="text" id="sender_card" name="sender_card" required><br>
+
+            <label for="sender_city">Sender City:</label>
+            <input type="text" id="sender_city" name="sender_city" required><br>
+
+            <label for="recipient_card">Recipient Card:</label  >
+            <input type="text" id="recipient_card" name="recipient_card" required><br>
+
+            <label for="recipient_city">Recipient City:</label>
+            <input type="text" id="recipient_city" name="recipient_city" required><br>
+
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" step="0.01" required><br>
+
+            <button type="submit">Transfer Money</button>
+
+        </form>
+
+    </body>
+</html>

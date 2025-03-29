@@ -1,0 +1,27 @@
+
+body {
+    background-image: url("back.png"); /* Указываем путь к изображению */
+    background-size: cover;           /* Масштабируем изображение по размеру окна браузера */
+    background-position: center;      /* Центрируем изображение */
+    background-repeat: no-repeat; /* Убираем повторение изображения */
+    text-align: center;               /* Центрирование текста */
+}
+
+label {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    text-align: left;
+}
+
+input {
+    margin: 5px auto;
+    display: block;
+    width: 200px;
+}
+
+button {
+    margin: 10px auto;
+    display: block;
+}
+    
